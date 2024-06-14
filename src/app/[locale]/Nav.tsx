@@ -54,9 +54,9 @@ export default function Nav() {
           </a>
         </div>
         <ul className="items-center gap-x-8 hidden lg:flex">
-          <li className="relative">About</li>
-          <li className="relative">Projects</li>
-          <li className="relative">Contacts</li>
+          <li className="relative hover:cursor-pointer">About</li>
+          <li className="relative hover:cursor-pointer">Projects</li>
+          <li className="relative hover:cursor-pointer">Contacts</li>
         </ul>
         <div className="flex items-center justify-end lg:flex-1 gap-3">
           <div className="relative inline-flex">
